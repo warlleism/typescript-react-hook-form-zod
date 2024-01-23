@@ -1,0 +1,19 @@
+.main-container {
+  width: 700px;
+  height: 90%;
+  background: #f2f2f2;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  
+
+  h1 {
+    font-size: 1.5rem;
+    margin: 20px 0;
+  }
+
+  button {
+    margin-top: 30px;
+  }
+}

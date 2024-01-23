@@ -6,7 +6,9 @@ function App() {
 
   return (
     <ChakraProvider>
-      <Form />
+      <div style={{ background: '#e9e9e9', width: '100vw', height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <Form />
+      </div>
     </ChakraProvider>
   )
 }
